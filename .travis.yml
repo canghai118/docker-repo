@@ -1,8 +1,5 @@
 language: golang
-services:
-  - docker
 scripts:
   - whoami
   - pwd
   - ls -la
-  - docker ps
