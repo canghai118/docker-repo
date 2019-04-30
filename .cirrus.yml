@@ -5,5 +5,5 @@ docker_builder:
       - CONTAINER: php2
   script:
     - docker build -t $CONTAINER images/$CONTAINER
-  skip: '!changesInclude("images/CONTAINER/*")'
+  skip: "!changesInclude('images/CONTAINER/*')"
 
