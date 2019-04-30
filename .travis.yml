@@ -1,1 +1,8 @@
-os: linux
+dist: trusty
+services:
+  - docker
+scripts:
+  - whoami
+  - pwd
+  - ls -la
+  - docker ps
