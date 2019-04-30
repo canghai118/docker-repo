@@ -1,4 +1,6 @@
 language: golang
+sa
+as
 scripts:
   - whoami
   - pwd
