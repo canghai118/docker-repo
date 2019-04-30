@@ -1,2 +1,4 @@
-language: ruby
-script: true
+dist: trusty
+services:
+  - docker
+script: docker ps
