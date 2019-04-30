@@ -1,6 +1,6 @@
 container:
   image: php
-build-docker:
+build_docker_task:
   env:
     matrix:
       - CONTAINER: php
