@@ -1,9 +1,12 @@
-docker_builder:
+container:
+  image: php
+build-docker:
   env:
     matrix:
       - CONTAINER: php
       - CONTAINER: php2
   script:
-    - docker build -t $CONTAINER images/$CONTAINER
+    #- docker build -t $CONTAINER images/$CONTAINER
+    - ls images/$CONTAINER
   skip: "!changesInclude('images/CONTAINER/*')"
 
