@@ -1,7 +1,7 @@
 docker_builder:
+  env:
+    matrix:
+      - CONTAINER: php
+      - CONTAINER: php2
   script:
-    - docker ps
-    - ls
-    - pwd
-    - whoami
-    - ps aux
+    - docker build -t $CONTAINER images/$CONTAINER
