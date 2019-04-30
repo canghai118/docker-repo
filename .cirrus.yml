@@ -8,5 +8,5 @@ build_docker_task:
   script:
     #- docker build -t $CONTAINER images/$CONTAINER
     - ls images/$CONTAINER
-  skip: "!changesInclude('images/CONTAINER/*')"
+  skip: '!changesInclude("images/$CONTAINER/*")'
 
