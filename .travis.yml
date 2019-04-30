@@ -1,5 +1,2 @@
 language: ruby
-scripts:
-  - whoami
-  - pwd
-  - ls -la
+script: true
