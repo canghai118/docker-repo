@@ -1,0 +1,7 @@
+docker_builder:
+  script:
+    - docker ps
+    - ls
+    - pwd
+    - whoami
+    - ps aux
