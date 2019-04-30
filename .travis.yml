@@ -1,6 +1,4 @@
-language: golang
-sa
-as
+language: ruby
 scripts:
   - whoami
   - pwd
